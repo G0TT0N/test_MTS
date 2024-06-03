@@ -1,0 +1,19 @@
+.statusLink {
+  display: flex;
+  gap: 8px;
+}
+
+.statusLink__text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-top: 6px;
+}
+
+.statusLink__text[data-is-closed="true"] {
+  color: #12b23f;
+}
+
+.statusLink__text[data-is-closed="false"] {
+  color: #007cff;
+}
